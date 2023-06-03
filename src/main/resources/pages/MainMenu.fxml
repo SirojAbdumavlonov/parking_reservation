@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="firstPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainMenuController">
+   <children>
+      <Button fx:id="rstButton" alignment="CENTER" contentDisplay="CENTER" layoutX="301.0" layoutY="58.0" lineSpacing="2.0" onAction="#buttonHon" prefHeight="129.0" prefWidth="678.0" stylesheets="@../css/styles.css" text="PARKING " textAlignment="CENTER" textFill="#c6cf28">
+         <font>
+            <Font name="Arial Nova Bold" size="96.0" />
+         </font>
+      </Button>
+      <Label fx:id="JAVAPRO" layoutX="14.0" layoutY="14.0" text="AppJavaPro" textFill="#d5e714">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="start" alignment="CENTER" contentDisplay="CENTER" layoutX="96.0" layoutY="720.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#STARTB" prefHeight="94.0" prefWidth="228.0" styleClass="mainmenu" text="START" textAlignment="CENTER" textFill="#b9d75f">
+         <font>
+            <Font name="Arial Nova Bold" size="49.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="21.06" offsetX="0.9" offsetY="0.9" radius="10.03" width="21.06">
+               <color>
+                  <Color red="0.2631579041481018" green="0.2495126724243164" blue="0.2495126724243164" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="SearchB" alignment="CENTER" contentDisplay="CENTER" layoutX="647.0" layoutY="720.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#SearchF" prefHeight="94.0" prefWidth="266.0" styleClass="mainmenu" text="SEARCH" textAlignment="CENTER" textFill="#b9d75f">
+         <font>
+            <Font name="Arial Nova Bold" size="49.0" />
+         </font>
+      </Button>
+      <Button fx:id="OrdersButton" alignment="CENTER" contentDisplay="CENTER" layoutX="349.0" layoutY="720.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#OrderPage" prefHeight="94.0" prefWidth="276.0" styleClass="mainmenu" text="ORDERS" textAlignment="CENTER" textFill="#b9d75f">
+         <font>
+            <Font name="Arial Nova Bold" size="49.0" />
+         </font>
+      </Button>
+      <Button fx:id="start111" alignment="CENTER" contentDisplay="CENTER" layoutX="933.0" layoutY="720.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#exitFunc" prefHeight="94.0" prefWidth="276.0" styleClass="mainmenu" text="EXIT" textAlignment="CENTER" textFill="#b9d75f">
+         <font>
+            <Font name="Arial Nova Bold" size="49.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <BoxBlur iterations="0" />
+   </effect>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+</AnchorPane>

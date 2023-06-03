@@ -1,0 +1,113 @@
+#page{
+    -fx-background-color: #242334;
+    -fx-alignment: center;
+    -fx-start-margin: auto;
+    -fx-end-margin: auto;
+    -fx-content-display: right;
+}
+
+#exit-btn{
+    -fx-border-color:none;
+    -fx-background-color: #242334;
+    -fx-text-fill: #4f4e5c;
+
+}
+
+#firstname{
+    -fx-border-width: 2;
+    -fx-background-color:#4f4e5c;
+    -fx-text-fill: white;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+
+}
+#secondname{
+    -fx-background-color:#4f4e5c;
+    -fx-text-fill: white;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+
+.btns:hover{
+    -fx-background-color:#ffc107;
+}
+
+.button{
+    -fx-text-fill: #4f4e5c;
+    -fx-background-color: #242334;
+    -fx-border-color: #4f4e5c,transparent;
+    -fx-border-style: dashed;
+
+}
+.button:hover{
+    -fx-border-color: white;
+    -fx-background-color: #ffc107;
+    -fx-text-fill: white;
+}
+#firstF{
+    -fx-text-fill:#ffc107;
+}
+#secondF{
+    -fx-text-fill:#ffc107;
+
+}
+#firstF:hover{
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+#secondF:hover{
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+#image1{
+    -fx-background-size: 100%;
+    -fx-background-color: transparent;
+    -fx-background-image: url("/pictures_and_components/right-arrow.png");
+    
+    
+}
+#CHECK:hover{
+    -fx-border-color: white;
+}
+
+#bigpane{
+    -fx-background-color: #4f4e5c;
+
+}
+#carnum {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: #4f4e5c;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+#slotNum{
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: #4f4e5c;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+
+}
+#arrTime{
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: #4f4e5c;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+
+}
+#depTime{
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: #4f4e5c;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+
+}
+#OUTPUT3{
+    -fx-text-fill: white;
+}
+
+

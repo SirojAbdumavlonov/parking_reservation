@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="head" prefHeight="300.0" prefWidth="400.0" stylesheets="@../css/ticket.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="service.Ticket">
+   <children>
+      <Pane fx:id="mainPane" layoutX="66.0" layoutY="52.0" prefHeight="211.0" prefWidth="268.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="40.0" layoutY="23.0" prefHeight="17.0" prefWidth="50.0" styleClass="labels" text="NAME" textFill="WHITE" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="162.0" layoutY="23.0" prefHeight="17.0" prefWidth="64.0" styleClass="labels" text="SURNAME" textFill="WHITE" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="23.0" layoutY="89.0" prefHeight="17.0" prefWidth="85.0" styleClass="labels" text="SLOT NUMBER" textFill="WHITE" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="152.0" layoutY="89.0" prefHeight="17.0" prefWidth="85.0" styleClass="labels" text="CAR NUMBER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="23.0" layoutY="152.0" prefHeight="17.0" prefWidth="85.0" styleClass="labels" text="ARRIVAL TIME" textFill="WHITE" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="152.0" prefHeight="17.0" prefWidth="106.0" styleClass="labels" text="DEPARTURE TIME" textFill="WHITE" />
+            <ImageView fitHeight="56.0" fitWidth="64.0" layoutX="106.0" layoutY="-28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../name.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="Tname" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="48.0" prefHeight="25.0" prefWidth="115.0" textFill="#f7f7f7" />
+            <Label fx:id="Tsurname" alignment="CENTER" contentDisplay="CENTER" layoutX="138.0" layoutY="48.0" prefHeight="25.0" prefWidth="115.0" textFill="#f7f7f7" />
+            <Label fx:id="Tslotnum" alignment="CENTER" contentDisplay="CENTER" layoutX="34.0" layoutY="106.0" prefHeight="25.0" prefWidth="64.0" textFill="#f7f7f7" />
+            <Label fx:id="Tcarnum" alignment="CENTER" contentDisplay="CENTER" layoutX="163.0" layoutY="106.0" prefHeight="25.0" prefWidth="64.0" textFill="#f7f7f7" />
+            <Label fx:id="Tarriv" alignment="CENTER" contentDisplay="CENTER" layoutX="34.0" layoutY="169.0" prefHeight="25.0" prefWidth="64.0" textFill="#f7f7f7" />
+            <Label fx:id="Tdepar" alignment="CENTER" contentDisplay="CENTER" layoutX="170.0" layoutY="169.0" prefHeight="25.0" prefWidth="64.0" textFill="#f7f7f7" />
+            <Label fx:id="ID" alignment="CENTER" contentDisplay="CENTER" layoutX="109.0" layoutY="169.0" prefHeight="17.0" prefWidth="50.0" styleClass="labels" text="ID" textFill="WHITE" />
+            <Label fx:id="ID1" alignment="CENTER" contentDisplay="CENTER" layoutX="102.0" layoutY="185.0" prefHeight="25.0" prefWidth="64.0" textFill="#f7f7f7" />
+         </children>
+      </Pane>
+      <Button fx:id="OKButton" disable="true" layoutX="334.0" layoutY="263.0" mnemonicParsing="false" onAction="#ok2" prefHeight="27.0" prefWidth="50.0" styleClass="labels" text="OK" />
+      <Button fx:id="OKButton1" layoutX="15.0" layoutY="263.0" mnemonicParsing="false" onAction="#ok1" prefHeight="27.0" prefWidth="56.0" styleClass="labels" text="SHOW" />
+   </children>
+</AnchorPane>

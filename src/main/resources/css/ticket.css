@@ -1,0 +1,21 @@
+#head{
+    -fx-background-color: #242334;
+    -fx-border-radius: 5px;
+}
+#mainPane{
+    -fx-border-color: ghostwhite;
+    -fx-border-radius: 20px;
+}
+
+.labels {-fx-font-weight: bold;}
+#OK{
+    -fx-background-color: #242334;
+    -fx-border-color: ghostwhite;
+    -fx-text-fill: ghostwhite;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+#OK:hover{
+    -fx-text-fill: #242334;
+    -fx-background-color: ghostwhite;
+}

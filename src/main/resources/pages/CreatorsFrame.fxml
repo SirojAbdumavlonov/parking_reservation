@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="850.0" prefWidth="1400.0" stylesheets="@../css/CreatorsCSS.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainMenuController">
+   <children>
+      <Button id="exitButton" fx:id="exitButton" layoutX="15.0" layoutY="14.0" mnemonicParsing="false" onAction="#exitButton1" opacity="1.0" prefHeight="47.0" prefWidth="100.0" stylesheets="@../css/styles.css" text="Exit">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="Label2" alignment="CENTER" layoutX="495.0" layoutY="206.0" prefHeight="70.0" prefWidth="406.0" styleClass="lbl" text="U2110088 ABDURAKHMON ABDUSATTOROV">
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <font>
+            <Font name="Century" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label4" alignment="CENTER" layoutX="513.0" layoutY="328.0" prefHeight="70.0" prefWidth="373.0" styleClass="lbl" text="U2110087 MUNIRA ABDUSAMATOVA">
+         <padding>
+            <Insets bottom="10.0" />
+         </padding>
+         <font>
+            <Font name="Century" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label1" alignment="CENTER" layoutX="513.0" layoutY="268.0" prefHeight="70.0" prefWidth="373.0" styleClass="lbl" text="U2110082 SIROJIDDIN ABDUMAVLONOV">
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <font>
+            <Font name="Century" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label3" alignment="CENTER" layoutX="513.0" layoutY="375.0" prefHeight="70.0" prefWidth="373.0" styleClass="lbl" text="U2110083 ABDULAZIZ ABDUNAZAR">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+         <font>
+            <Font name="Century" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label31" alignment="CENTER" layoutX="512.0" layoutY="431.0" prefHeight="70.0" prefWidth="373.0" styleClass="lbl" text="U2110091 AZIMJON ABDUVOKHIDOV">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+         <font>
+            <Font name="Century" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

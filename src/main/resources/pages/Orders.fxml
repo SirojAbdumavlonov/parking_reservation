@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Apane" prefHeight="800.0" prefWidth="1280.0" stylesheets="@../css/OrdersView.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="service.Orders">
+   <children>
+      <TextField fx:id="ADMIN" alignment="CENTER" layoutX="449.0" layoutY="159.0" prefHeight="87.0" prefWidth="382.0" promptText="ADMIN" stylesheets="@../css/OrdersView.css">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </TextField>
+      <Label fx:id="AVALUES" layoutX="454.0" layoutY="28.0" text="INPUT ADMIN DATA">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="PASSWORD" alignment="CENTER" layoutX="448.0" layoutY="333.0" prefHeight="87.0" prefWidth="382.0" promptText="PASSWORD" stylesheets="@../css/OrdersView.css">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="ENTER" layoutX="1025.0" layoutY="602.0" mnemonicParsing="false" onAction="#ENTERACT" prefHeight="54.0" prefWidth="108.0" text="ENTER" textFill="#17a191">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="129.0" fitWidth="120.0" layoutX="303.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="120.0" layoutX="303.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../3064155.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ENTER1" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#ENTERACT1" prefHeight="74.0" prefWidth="78.0" textFill="#300606">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="adminData" alignment="CENTER" contentDisplay="CENTER" layoutX="977.0" layoutY="502.0" prefHeight="54.0" prefWidth="203.0" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

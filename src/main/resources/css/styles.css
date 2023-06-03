@@ -1,0 +1,63 @@
+ #firstPane {
+     -fx-background-repeat: no-repeat;
+     -fx-background-size: cover;
+     -fx-background-position: center;
+     -fx-background-image: url("/pictures_and_components/parkf.jpg");
+
+
+ }
+ #firstButton{
+     -fx-border-radius: 20px;
+ }
+ #firstLabel {
+     -fx-background-size: auto;
+     -fx-text-alignment: center;
+     -fx-text-fill: #f8c422;
+
+ }  
+ 
+
+#firstLabel:hover{
+    -fx-background-color: transparent;
+}
+ #secondLabel {
+     -fx-background-color: transparent;
+ }
+#rstButton{
+    -fx-text-fill: #f8c422;
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+    -fx-spacing: 2;
+    -fx-effect: dropshadow(gaussian, black, 10, 0.5, 1.5, 15);
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+
+}
+.mainmenu{
+    -fx-background-color: transparent;
+    -fx-text-fill: #f8c422;
+-fx-effect: dropshadow(gaussian, black, 10, 0.0, 0.9, 0.9);
+}
+#JAVAPRO{
+    -fx-text-fill: #f8c422;
+}
+#OUTPUT{
+    -fx-text-fill: red;
+}
+#OUTPUT1{-fx-text-fill: red;}
+
+#empty1:hover{
+    -fx-background-radius: 100 0 0 0;
+}
+#empty2:hover{
+    -fx-background-radius: 0 100 0 0;
+}
+#empty3:hover{
+    -fx-background-radius: 0 0 100 0;
+}
+#empty4:hover{
+    -fx-background-radius: 0 0 0 100;
+}
+
+
+
